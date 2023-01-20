@@ -1,19 +1,5 @@
 /*
- * Starter code for making an autonomous Arduino car with the Science Buddies Bluebot kit
- * For introductory video see https://youtu.be/qUo6hXSV1b8
- * For circuit diagram and instructions see: https://www.sciencebuddies.org/science-fair-projects/project-ideas/Robotics_p042/robotics/arduino-self-driving-car
- * 
- * 
- * *Important*: this code assumes you use the Arduino pins from the circuit diagram on the Science Buddies website. 
- * If you wire your circuit differently, you will need to adjust your code accordingly. 
- * 
- * This code is intended to help you get started building a self-driving car with the Science Buddies Bluebot kit.
- * It assumes you are using the Bluebot chassis along with the two included infrared (IR) sensors, as well as 
- * an Arduino UNO and a PING ultrasonic distance sensor (purchased separately).
- * 
- * The code will read the sensors and is set up to control the speed and direction of the robot's two motors
- * using an H-bridge integrated circuit (the L293D, included in your Bluebot kit). However, *you* must write
- * an algorithm that determines what the robot will do based on the sensor readings. 
+ * Starter code for making an autonomous Arduino car 
  */
 
 // define pins for H bridge
